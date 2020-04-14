@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Card, List } from '@material-ui/core';
+import { Grid, Typography, } from '@material-ui/core';
 import { makeStyles }  from '@material-ui/core/styles';
 import { grey } from '@material-ui/core/colors';
 import InsightsList from './InsightsList';
