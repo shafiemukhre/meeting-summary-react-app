@@ -46,12 +46,14 @@ export default function InsightsList({title}){
     return (
         <div className={classes.root}>
             <Typography>{title}</Typography>
-            <InsightCard></InsightCard>
             {datas.map( (data) => {
                 console.log(data)
-                if (data[1]==='follow_up'){
+                if (data[1]==='action_item'){
                     return (
-                        <li>{data[2]}</li>
+                        <div>
+                            <InsightCard insightsText={data[2]}></InsightCard>
+                            <br/>
+                        </div>
                     ) 
                 } else { return null }
             })}
