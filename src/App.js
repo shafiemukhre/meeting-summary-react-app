@@ -1,30 +1,28 @@
 import React from 'react'
-import MeetingInfo from './components/MeetingInfo'
-import NavBar from './components/NavBar'
-import { Grid, Paper } from '@material-ui/core'
-import Insights from './components/Insights'
-
+import MeetingInfo from './components/meetingInfo/MeetingInfo'
+import NavBar from './components/layouts/NavBar'
+import { Grid } from '@material-ui/core'
+import Insights from './components/meetingInsights/Insights'
+import Chips from './components/test'
 
 function App() {
   
   return (
     <div className="App">
         <NavBar />
+        <br/><br/>
         <Grid container>
-          <Grid item xs={0} sm={1} ></Grid>
+          <Grid item xs={false} sm={1} ></Grid>
           <Grid item xs={12} sm={10}>
             <br/>
             <MeetingInfo />
-            <br/>
-            <Paper>
-            <Insights/> 
-            </Paper>
-
+            <br/><br/>
+            <Insights/>
+            <br/><br/> 
           </Grid>
-          <Grid item xs={0} sm={1} ></Grid>
+          <Grid item xs={false} sm={1} ></Grid>
         </Grid>
-
-
+        <Chips/>
     </div>
   )
 }
