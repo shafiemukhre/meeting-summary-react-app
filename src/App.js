@@ -3,7 +3,6 @@ import MeetingInfo from './components/meetingInfo/MeetingInfo'
 import NavBar from './components/layouts/NavBar'
 import { Grid } from '@material-ui/core'
 import Insights from './components/meetingInsights/Insights'
-import Chips from './components/test'
 
 function App() {
   
@@ -22,7 +21,6 @@ function App() {
           </Grid>
           <Grid item xs={false} sm={1} ></Grid>
         </Grid>
-        <Chips/>
     </div>
   )
 }
