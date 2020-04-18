@@ -65,9 +65,9 @@ export default function MeetingInfo() {
                                 <Box p={1}>
                                     <Typography>Attendees</Typography>
                                     <div className={classes.chipStyle}>
-                                        {members.map( (member) => {
+                                        {members.map( (member, i) => {
                                                 return (
-                                                    <Members member={member[0]}></Members>
+                                                    <Members key={i} member={member[0]}></Members>
                                                 ) 
                                         })}
                                     </div>
@@ -76,10 +76,10 @@ export default function MeetingInfo() {
                                 <Box p={1}>
                                     <Typography>Summary Topics</Typography>
                                     <div className={classes.chipStyle}>
-                                        {datas.map( (data) => {
+                                        {datas.map( (data, i) => {
                                             if (data[1]==='topic'){
                                                 return (
-                                                        <Topics topic={data[2]}></Topics>
+                                                        <Topics key={i} topic={data[2]}></Topics>
                                                 ) 
                                             } else { return null }
                                         })}

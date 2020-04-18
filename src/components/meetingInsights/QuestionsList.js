@@ -27,8 +27,8 @@ export default function InsightsList({title}){
                 {datas.map( (data) => {
                     if (data[1]==='question'){
                         return (
-                            <div>
-                                <InsightCard insightsText={data[2]}></InsightCard>
+                            <div key={data[0]}>
+                                <InsightCard key={data[0]} insightsText={data[2]}></InsightCard>
                                 <br/>
                             </div>
                         ) 
