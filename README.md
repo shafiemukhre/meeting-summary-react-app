@@ -22,3 +22,7 @@ Feel free to fork any of the projects here to use on your own and if you have an
 Refer our [Official Documentation](docs.symbl.ai) for more details and explanation of Symbl AI's API.
 
 If you have questions, bugs to report or feature suggestions, join our [Dev Community](https://community.symbl.ai).
+
+## Screenshot of this Sample App
+
+<img src="/images/meeting-summary-ui.png" width=1000>
