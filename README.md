@@ -23,6 +23,6 @@ Refer our [Official Documentation](docs.symbl.ai) for more details and explanati
 
 If you have questions, bugs to report or feature suggestions, join our [Dev Community](https://community.symbl.ai).
 
-## Screenshot of this Sample App
+## Screenshot
 
 <img src="/images/meeting-summary-ui.png" width=1000>
