@@ -1,30 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Meeting Summary UI Sample App
 
-## Available Scripts
+This is a sample web application built with [React](https://reactjs.org). In this example [Material-UI](https://material-ui.com) was used as CSS library.
 
-In the project directory, you can run:
+This app demonstrate an implementation of GET Request to our Conversation API endpoints to generate a meeting summary UI tha fits your unique use cases. 
 
-### `yarn start`
+## Authentication
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Use tools such as Postman to generate access token and update the `auth.json` file in `./src/services/auth.json`. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Install Dependencies 
 
-### `yarn test`
+run `yarn install` or `npm install` on terminal to install the dependencies required
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run
 
-### `yarn build`
+run `yarn start` or `npm start` on terminal to run the apps in develepment mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## References
+Feel free to fork any of the projects here to use on your own and if you have any code improvements, make a pull request and the request will be reviewed by one of our admins.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Refer our [Official Documentation](docs.symbl.ai) for details information on our API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
+If you have questions, bugs to report or feature suggestions, join our [Dev Community](https://community.symbl.ai).
